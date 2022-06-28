@@ -1,0 +1,267 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Popins', sans-serif;
+    background-repeat: no-repeat;
+}
+
+body{
+    background: linear-gradient(100deg, rgb(180, 76, 76), #1570c5)
+}
+
+header ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1580px;
+    margin-top: 50px;
+}
+
+header ul a{
+    color: white;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+
+header ul a:hover{
+    border-bottom: 2px solid rgb(180, 76, 76);
+}
+
+#logo{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: -25px;
+}
+
+#foto{
+    position: absolute;
+    margin-left: 1500px;
+    margin-top: -330px;
+    border: 1px solid rgb(161, 172, 202);
+    border-radius: 130px;
+}
+
+#foto:hover{
+    box-shadow: 1px 1px 30px 5px #103374;
+}
+
+#produtos{
+    display: flex;
+    position: absolute;
+    left: 1520px;
+    margin-top: 210px;
+}
+
+#produtos img{
+    margin-left: 20px;
+    box-shadow: 1px 1px 300px 5px #103374;
+    padding: 5px;
+}
+
+#produtos img:hover{
+    border: 1px solid rgb(161, 172, 202);
+    border-radius: 10px;
+    box-shadow: 1px 1px 100px 2px #103374;
+}
+
+main{
+    margin-top: 120px;
+}
+
+main h1{
+    margin-left: 50px;
+    font-size: 70px;
+    color: white;
+    font-weight: 800;
+}
+
+main h1 span{
+    font-size: 120px;
+    font-weight: 800;
+    line-height: 130px;
+}
+
+main p{
+    position: absolute;
+    color: white;
+    font-weight: 500;
+    margin-left: 60px;
+    margin-top: -50px;
+}
+
+#botao{
+    position: absolute;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.808);
+    padding: 12px;
+    margin-top: 60px;
+    border-radius: 20px;
+    font-weight: 600;
+    margin-left: 60px;
+    box-shadow: 1px 8px 90px 1px rgb(121, 17, 17);
+}
+
+#botao:hover{
+    background-color: rgba(255, 255, 255, 0.836);
+}
+
+@media (max-width:700px){
+    body{
+        display: grid;
+        overflow-x: hidden;
+    }
+
+    #logo{
+        margin-top: 40px;
+    }
+
+    main h1{
+        font-size: 35px;
+    }
+
+    main h1 span{
+        font-size: 80px;
+    }
+
+    main p{
+        margin-top: -10px;
+    }
+
+    #botao{
+        margin-top: 130px;
+    }
+
+    header ul{
+        display: flex;
+        position: absolute;
+        margin-left: 450px;
+    }
+
+    #view #foto img{
+        margin-left: -1100px;
+        width: 210px;
+        margin-top: 500px;
+    }
+
+    #view #produtos{
+        display: none;
+    }
+
+}
+
+
+@media (max-width: 600px){
+   
+
+    body{
+        overflow-x: hidden;
+        background-repeat:no-repeat;
+        max-width: 100%;
+        background: linear-gradient(110deg, rgb(180, 76, 76) 50%, #293e66 1%);
+        display:grid;
+    }
+
+    header ul{
+        margin-left: 200px;
+    }
+
+    main{
+        margin-top: 160px;
+    }
+
+   main h1{
+    font-size: 30px;
+   }
+
+   main h1 span{
+    font-size: 40px;
+   }
+   
+   main p{
+    display: none;
+   }
+
+
+   #view #produtos{
+    display: flex;
+}
+
+    #produtos{
+        display: flex;
+        position: relative;
+        margin-left: -1475px;
+        margin-top: 210px;
+    }
+
+    #produtos img{
+        width: 60px;
+    }
+
+    
+
+    #foto img{
+        display: none;
+    }
+
+
+    #botao{
+        margin-top: 1px;
+        box-shadow: none;
+    }
+
+    #foto{
+        margin-left: 130px;
+        margin-top: 120px;
+    }
+
+
+}
+
+
+@media (min-width:1000px){
+
+    body{
+        overflow-x: hidden;
+    }
+
+    #view{
+        position: absolute;
+        margin-left: -460px;
+    }
+
+    header ul{
+        margin-left: 1100px;
+    }
+
+    header ul a:hover{
+        color: red;
+        border-bottom: 0px solid;
+    }
+
+
+    
+}
+
+
+
+@media (min-width:1750px){
+    body{
+        display:grid;
+    }
+
+    #logo{
+        margin-top: 30px;
+    }
+
+    #view{
+        margin-left: 40px;
+    }
+
+    header ul{
+        margin-left: 1600px;
+    }
+
+}
+
+
